@@ -47,6 +47,7 @@ header {
     grid-row: auto auto;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: auto auto; /* Adjust for your content */
@@ -85,7 +86,6 @@ header {
 
 .menu_overlay ul {
     grid-area: 3 / 2 / 4 / 3;
-    height: 100%;
     width: 100%;
     list-style: none;
     padding: 20px;
@@ -290,7 +290,7 @@ h3 {
 #logo {
     position: relative;
     width: 100px;
-    left: 20px;
+    right: 70px;
     z-index: 200;
 }
 
