@@ -5,32 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Projects</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
-            </ul>
+        <div class="container">
+            <input type="checkbox" name="" id="menuBtn">
+            <a href="./index.html"><img src="./images/logo.png" alt="logo" id="logo"></a>
+            <div class="menu_overlay">
+                <label for="menuBtn">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul>
+                    <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                    <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                    <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                    <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                    <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+                </ul>
+            </div>
+            <div class="landing_page">
+                <div class="menu">
+                    <label for="menuBtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </div>
         </div>
-    </header>
+        </header>
 
-    <section>
+    <section id="projectstart">
         <h3>My projects</h3>
-        <div>
+        <div class="projects">
             <div><img src="https://kete-rvs.com/wp-content/uploads/2020/02/smart-home-automation-2-lrg.jpg" alt="SmartHome-img"></div>
             <section>
                 <h4>Smart Home System</h4>
                 <p>IoT based smart home system that is automated and also enables user monitoring</p>
-                <a href="awards.html#ameenBaward" target="_blank"><span>view award <img src="./images/arrow.png" alt=""></span></a>
+                <a class="buton" href="awards.html#ameenBaward" target="_blank"><span>view award <img src="./images/arrow.png" alt=""></span></a>
             </section>
         </div>
-        <div>
+        <div class="projects">
             <div>
                 <iframe src="https://www.youtube.com/embed/o612mWZGEsM" title="STEMpower Ethiopia, Episode 74 Selman Abdurahman Innovator Student From Jigjiga U  STEM Center"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -39,10 +59,9 @@
                 <p>Three different projects that are Auto night light, Auto emergency light and water level detectors</p>
             </section>
         </div>
-        <div>
+        <div class="projects">
             <div>
                 <audio controls>
-                  <!-- <source src="./images/audio.mp3" type="audio/mp3"> -->
                   <source src="./images/audio.m4a" type="audio/mp4">
                   Your browser doesn't support this audio format.
                 </audio>
@@ -56,10 +75,10 @@
 
     <footer>
         <div>
-        <div>
+        <div class="footer1">
         <p>Copyright © 2023 Salman Ali</p>
         </div>
-        <div>
+        <div class="footer2">
             <ul>
                 <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
                 <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>

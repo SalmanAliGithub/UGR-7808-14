@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Resume</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+    <div class="container">
+        <input type="checkbox" name="" id="menuBtn">
+        <a href="./index.html"><img src="./images/logo.png" alt="logo" id="logo"></a>
+        <div class="menu_overlay">
+            <label for="menuBtn">
+                <i class="fas fa-times"></i>
+            </label>
             <ul>
                 <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
                 <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
@@ -18,20 +30,29 @@
                 <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
         </div>
+        <div class="landing_page">
+            <div class="menu">
+                <label for="menuBtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+        </div>
+    </div>
     </header>
 
-    <p>
-        <a href="./images/CV.pdf" download=""><span>Download <img src="./images/download.png" alt=""></span></a>
-    </p>
-    <br>
-    <embed src="./images/CV.pdf">
+    <div id="downlodstart">
+        
+        <a class="buton" href="./images/CV.pdf" download="SalmanCV"><span>Download</span><img src="./images/download.png" alt=""></a>
+    </div>
 
-    <footer>
+    <iframe src="./images/CV.pdf" id="resumeiframe"></iframe>
+
+    <footer class="resumefooter">
         <div>
-            <div>
+            <div class="footer1">
                 <p>Copyright © 2023 Salman Ali</p>
             </div>
-            <div>
+            <div class="footer2">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
                     <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
