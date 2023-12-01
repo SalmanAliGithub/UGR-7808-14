@@ -5,27 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Awards</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> 
     <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
-            </ul>
+        <div class="container">
+            <input type="checkbox" name="" id="menuBtn">
+            <a href="./index.html"><img src="./images/logo.png" alt="logo" id="logo"></a>
+            <div class="menu_overlay">
+                <label for="menuBtn">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul>
+                    <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                    <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                    <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                    <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                    <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+                </ul>
+            </div>
+            <div class="landing_page">
+                <div class="menu">
+                    <label for="menuBtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </div>
         </div>
-    </header>
+        </header>
 
-    <section>
+    <section class="awards">
         <h3>Some of my Awards</h3>
     </section>
-    <div id="ameenBaward">
+    <div class="awards">
         <section>
-            <h4>Ameen Business Award</h4>
+            <h4 id="ameenBaward">Ameen Business Award</h4>
             <p>An award given to me for winning Entrepreneurship competition
                 prepared by <a href="https://www.bankofabyssinia.com/" target="_blank"><span>Bank of AbyssiniaAmeen.</span></a>
                 My project was one of the 86 projects selected nationwide in
@@ -38,7 +57,7 @@
             <img src="https://scontent.fadd2-1.fna.fbcdn.net/v/t39.30808-6/343321343_133010256418339_6998254207127825685_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rp54Jgl7MkcAX8uRZk5&_nc_ht=scontent.fadd2-1.fna&oh=00_AfDJqhUF7dgHT0HYEC4hkhWFhdOdfktvtMpTeETuvMaUPw&oe=656A5686" alt="Salman AmeenAward-img">
         </div>
     </div>
-    <div>
+    <div class="awards">
         <section>
             <h4>SRS Best student ever</h4>
             <p>I was awarded by the Somali Regional State Education 
@@ -52,7 +71,7 @@
             <iframe  src="https://www.youtube.com/embed/qIE1IaWVSmU?si=kzzYjqribM66vpz5?start=370" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
-    <div>
+    <div class="awards">
         <section>
             <h4>IKS Award</h4>
             <p>I was awarded Ibn Khaldun Stars Award, which is 
@@ -66,10 +85,10 @@
             <img src="https://scontent.fadd2-1.fna.fbcdn.net/v/t39.30808-6/281345571_547089573793044_2564676240996176998_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pQq4spt4y5UAX9XtZxx&_nc_ht=scontent.fadd2-1.fna&oh=00_AfAZNL56s9dsMEn8xRU_F1ROjN-E211K9CxE0_HLmLIDUQ&oe=6568E318" alt="IKS award-img">
         </div>
     </div>
-    <div>
+    <div class="awards">
         <section>
             <h4>Ameen Academic Award</h4>
-            <p>An award prepared by <a href="https://www.bankofabyssinia.com/" target="_blank"><span>Bank of AbyssiniaAmeen.</span></a>
+            <p>An award prepared by <a href="https://www.bankofabyssinia.com/" target="_blank"><span>Bank of Abyssinia Ameen.</span></a>
                 by its East and South East Ethiopia district. I was awarded as the pioneer young of the area when I recorded high result 
                 in the national university entrance examination. <a href="">Read more...</a>
             </p>
@@ -78,7 +97,7 @@
             <img src="./images/AmeenAcademy.jpg" alt="AmeenAcademy-img">
         </div>
     </div>
-    <div>
+    <div class="awards">
         <section>
             <h4>National Engineering Competition</h4>
             <p>I participated in the 2019 National Science and Engineering Competition hosted by 
@@ -94,3 +113,19 @@
     </div>
 
     <footer>
+        <div>
+            <div class="footer1">
+                <p>Copyright © 2023 Salman Ali</p>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
+                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
+                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

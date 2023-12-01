@@ -5,32 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-About</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
-            </ul>
+        <div class="container">
+            <input type="checkbox" name="" id="menuBtn">
+            <a id="logo" href="./index.html"><img src="./images/logo.png" alt="logo" id="logo"></a>
+            <div class="menu_overlay">
+                <label for="menuBtn">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul>
+                    <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                    <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                    <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                    <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                    <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+                </ul>
+            </div>
+            <div class="landing_page">
+                <div class="menu">
+                    <label for="menuBtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </div>
         </div>
-    </header>
+        </header>
 
-    <section>
+    <section class="aboutstart">
         <div>
-            <h3>Get to know me!</h3>
-            <p>Hello, I am Salman Ali born in Harar, Ethiopia 
+            <h3 class="hey">Get to know me!</h3>
+            <p class="name">Hello, I am Salman Ali born in Harar, Ethiopia 
                 and raised in Jijiga, Ethiopia. I am currently
                 a software engineering student at the prestigious
                 university in Ethiopia and Africa, Addis Ababa 
                 University in its technology institute (AAU/AAiT).
             </p>
-            <p>What do I enjoy other than programming?</p>
-            <ul>
+            <p class="writings">What do I enjoy other than programming?</p>
+            <ul class="lis">
                 <li>Reading books</li>
                 <li>Maintaining electronics</li>
                 <li>Event organizing</li>
@@ -41,7 +61,7 @@
             <img src="./images/img-3.png" alt="sticker3-img">
         </div>
     </section>
-    <section>
+    <section class="aboutimgs">
         <h3>My tech skills</h3>
         <img src="./images/arduino.png" alt="arduino-icon">
         <img src="./images/css-3.png" alt="css-icon">
@@ -52,7 +72,7 @@
         <img src="./images/c.png" alt="c-icon">
     </section>
 
-    <section>
+    <section class="aboutimgs">
         <h3>Tools I use</h3>
         <img src="./images/Proteus.png" alt="proteus-icon">
         <img src="./images/arduino.png" alt="ardIDE-icon">
@@ -63,10 +83,10 @@
     
     <footer>
         <div>
-            <div>
+            <div class="footer1">
                 <p>Copyright © 2023 Salman Ali</p>
             </div>
-            <div>
+            <div class="footer2">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
                     <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
