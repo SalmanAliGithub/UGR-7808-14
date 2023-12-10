@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Home</title>
-    <link rel="icon" href="./css/style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +16,7 @@
     <header>
     <div class="container">
         <input type="checkbox" name="" id="menuBtn">
-        <a href="./index.html"><img src="./images/logo.png" alt="logo" id="logo"></a>
+        <div id="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></div>
         <div class="menu_overlay">
             <label for="menuBtn">
                 <i class="fas fa-times"></i>
@@ -40,12 +39,12 @@
     </div>
     </header>
 
-    <section>
+    <section class="flexcontainer">
         <div class="intro">
             <h3 class="hey">Hey there !</h3>
             <h2 class="name">I'm <strong>Salman Ali</strong></h2>
             <h3 class="subname">Awards winner programmer</h3>
-            <p class="writings">Founder and president of BariYEC, CEO OF Smart-Tech startup, Academics department president at RYC and Software engineering student at AAiT/AAU.</p>
+            <p id="writings">Founder and president of BariYEC, CEO OF Smart-Tech startup, Academics department president at RYC and Software engineering student at AAiT/AAU.</p>
         </div>
         <div>
             <img class="imgrightfloat" src="./images/img-1.png" alt="sticker1-img">
@@ -54,7 +53,8 @@
     <hr>
 
     <section>
-        <h3 class="centh3">To say a little about myself</h3>
+        <h3 id="centh3">To say a little about myself</h3>
+        <div class="flexcontainer">
         <div>
             <p>I started programming in 2017, but I was in the Tech
                 field since my childhood. I remember myself working
@@ -65,7 +65,8 @@
             </p>
         </div>
         <div>
-            <img class="imgrightfloat2" src="./images/img-2.png" alt="sticker2-img">
+            <img class="imgrightfloat" src="./images/img-2.png" alt="sticker2-img">
+        </div>
         </div>
     </section>
     <section>
@@ -80,7 +81,6 @@
     </section>
 
     <footer>
-        <div>
             <div class="footer1">
                 <p>Copyright © 2023 Salman Ali</p>
             </div>
@@ -92,7 +92,6 @@
                     <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
                 </ul>
             </div>
-        </div>
     </footer>
 </body>
 </html>
