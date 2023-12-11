@@ -300,6 +300,7 @@ ul img:hover {
 .buton img {
     width: 8px;
     height: auto;
+    filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
 }
 .buton {
     background-color: #007bff;
