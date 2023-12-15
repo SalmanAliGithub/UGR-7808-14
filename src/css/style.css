@@ -39,27 +39,21 @@ header a {
     display: flex;
     align-items: center;
 }
-.container {
+.menu-container {
+    display: flex;
     background-color: #a0e4fa;
-    display: flex;
     justify-content: space-between;
-    width: 100%;
 }
-.menu_overlay{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100vw;
-    height: auto;
-    overflow: hidden;
+#closebtn {
+    display: none;
+}
+#menu-burger {
+    display: none;
 }
 header {
     position: fixed;
     z-index: 2;
     width: 100%;
-}
-header input, label {
-    display: none;
 }
 
 /* Home body */
@@ -473,86 +467,44 @@ ul img:hover {
     footer p {
         grid-area: textt;
     }
-    grid ul {
-        grid-area: medias;
-    }
+    
     header ul p {
         display: flex;
     }
     header ul img {
         display: flex;
     }
-    header input, label {
-        display: inline-block;
+
+    .landing-page ul {
+        display: block;
     }
-    .menu_overlay {
-        top: 0;
-        left: 0;
-        position:fixed;
-        color: #fff;
-        background: linear-gradient(to right, rgb(103, 181, 255), rgb(160, 228, 250));
-        z-index: 100;
-        transform: translateX(100%);
-        transition: transform 0.5s ease;
+    .landing-page ul li a {
+        justify-content: center;
     }
-    .menu_overlay .fas {
-        position: absolute;
-        top: 15px;
-        right: 60px;
-        color: white;
-        font-size: 2.5rem;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    .menu_overlay ul {
-        height: 100%;
-        width: 100%;
-        list-style: none;
-        padding: 20px;
-        margin-top: 50px;
-        font-size: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }   
-    .menu_overlay .fas:hover {
-        color: rgb(17, 17, 204);
-        transform: scale(1.1) rotate(180deg);
-    }    
-    .menu_overlay a {
-        color: #fff;
-        text-decoration: none;
-    }
-    .menu_overlay a:hover {
-        color: rgb(24, 6, 183);
-    }
-    #menuBtn {
+    .landing-page {
+        z-index: 1;
+        background-color: #a0e4fa;
         display: none;
     }
-    #menuBtn:checked ~ .menu_overlay {
-        transform: translateX(0);
-    }
-    .landing_page {
-        max-height: 100vh;
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
-    .menu {
-        position: absolute;
-        right: 20px;
-    }
-    .fas {
-        font-size: 2rem;
+    #menu-burger {
+        margin: 5px;
+        font-size:30px;
+        cursor:pointer;
+        display: flex;
+        justify-content: flex-end;
         color: white;
-        position: relative;
-        top: 12px;
-        right: 20px;
-        cursor: pointer;
     }
-    .fas:hover {
-        color: rgb(24, 6, 183);
+    #menu-burger:hover, #closebtn:hover {
+        color: #007bff;
+        font-weight: bold;
+    }
+
+    #closebtn {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 50px;
+        cursor: pointer;
+        margin: 0 5px 5px 5px;
     }
 }
 
