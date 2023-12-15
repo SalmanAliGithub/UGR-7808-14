@@ -15,30 +15,23 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <input type="checkbox" name="" id="menuBtn">
-            <div id="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></div>
-            <div class="menu_overlay">
-                <label for="menuBtn">
-                    <i class="fas fa-times"></i>
-                </label>
-                <ul>
-                    <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                    <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                    <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                    <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                    <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
-                </ul>
+        <div class="menu-container">
+        <div id="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></div>
+        <div id="myNav" class="landing-page">
+            <a id="closebtn">&times;</a>
+            <div class="">
+              <ul>
+                  <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                  <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                  <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                  <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                  <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+              </ul>
             </div>
-            <div class="landing_page">
-                <div class="menu">
-                    <label for="menuBtn">
-                        <i class="fas fa-bars"></i>
-                    </label>
-                </div>
-            </div>
+          </div>
+          <span id="menu-burger">&#9776</span>
         </div>
-        </header>
+    </header>
 
     <section class="aboutstart">
         <div>
@@ -93,6 +86,7 @@
                 <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
             </ul>
         </div>
-</footer>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
