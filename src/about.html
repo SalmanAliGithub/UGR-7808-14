@@ -5,76 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-About</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
 </head>
-<body>
-    <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+<body class="has-text-white" style="background-color: #a0e4fa;">
+    <header class="m-0 p-0" style="background-color: #90dffa;">
+        <div class="is-flex">
+            <a href="./index.html">
+                <figure style="width: 64px">
+                <img src="./images/logo.png" alt="logo">
+                </figure>
+            </a>
+            <a  class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="navbar-menu" id="landing-page">
+            <ul class="navbar-end" >
+                <li class="navbar-item "><a class=" has-text-white" href="./index.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/home.svg" alt="home-icon"> Home</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./about.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./projects.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./awards.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./resume.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
+            </div>
         </div>
     </header>
 
-    <section>
-        <div>
-            <h3>Get to know me!</h3>
-            <p>Hello, I am Salman Ali born in Harar, Ethiopia 
+    <section class="is-flex">
+        <div class="column is-6">
+            <h3 class="title has-text-white has-text-centered mt-6 is-size-1">Get to know me!</h3>
+            <p class="has-text-justified is-size-4 pt-6 mt-6 p-3">Hello, I am Salman Ali born in Harar, Ethiopia 
                 and raised in Jijiga, Ethiopia. I am currently
                 a software engineering student at the prestigious
                 university in Ethiopia and Africa, Addis Ababa 
                 University in its technology institute (AAU/AAiT).
             </p>
-            <p>What do I enjoy other than programming?</p>
-            <ul>
-                <li>Reading books</li>
-                <li>Maintaining electronics</li>
-                <li>Event organizing</li>
-                <li>Taking various trainings</li>
+            <p class="is-size-4 pt-6 p-3">What do I enjoy other than programming?</p>
+            <ul class="ml-6 is-size-4">
+                <li> -> Reading books</li>
+                <li> -> Maintaining electronics</li>
+                <li>-> Event organizing</li>
+                <li> ->Taking various trainings</li>
             </ul>
-        </div>
+        </div class="column is-6">
         <div>
-            <img src="./images/img-3.png" alt="sticker3-img">
+            <img src="./images/img-3.png" alt="sticker3-img" style="width: 400px;">
         </div>
     </section>
-    <section>
-        <h3>My tech skills</h3>
-        <img src="./images/arduino.png" alt="arduino-icon">
-        <img src="./images/css-3.png" alt="css-icon">
-        <img src="./images/html.png" alt="html-icon">
-        <img src="./images/java-script.png" alt="javascript-icon">
-        <img src="./images/java.png" alt="java-icon">
-        <img src="./images/python.png" alt="python-icon">
-        <img src="./images/c.png" alt="c-icon">
+    <section class=" section is-justify-content-center">
+        <h3 class="title has-text-white has-text-centered mt-6 is-size-1 m-6">My tech skills</h3>
+        <div class="is-flex is-flex-wrap-wrap is-justify-content-center">
+        <img class="m-5" src="./images/arduino.png" alt="arduino-icon" style="width: 350px;">
+        <img class="m-5" src="./images/css-3.png" alt="css-icon" style="width: 350px;">
+        <img class="m-5" src="./images/html.png" alt="html-icon" style="width: 350px;">
+        <img class="m-5" src="./images/java-script.png" alt="javascript-icon" style="width: 350px;">
+        <img class="m-5" src="./images/java.png" alt="java-icon" style="width: 350px;">
+        <img class="m-5" src="./images/python.png" alt="python-icon" style="width: 350px;">
+        <img class="m-5" src="./images/c.png" alt="c-icon" style="width: 350px;">
+        </div>
     </section>
 
-    <section>
-        <h3>Tools I use</h3>
-        <img src="./images/Proteus.png" alt="proteus-icon">
-        <img src="./images/arduino.png" alt="ardIDE-icon">
-        <img src="./images/multimeter.png" alt="multimeter-img">
-        <img src="./images/maintenance.png" alt="tool-img">
-        <img src="./images/vs.svg" alt="vscode-icon">
+    <section class="section">
+        <h3 class="title has-text-white has-text-centered mt-6 is-size-1">Tools I use</h3>
+        <div class="is-flex is-flex-wrap-wrap is-justify-content-center">
+        <img class="m-5" src="./images/Proteus.png" alt="proteus-icon" style="width: 350px;">
+        <img class="m-5" src="./images/arduino.png" alt="ardIDE-icon" style="width: 350px;">
+        <img class="m-5" src="./images/multimeter.png" alt="multimeter-img" style="width: 350px;">
+        <img class="m-5" src="./images/maintenance.png" alt="tool-img" style="width: 350px;">
+        <img class="m-5" src="./images/vs.svg" alt="vscode-icon" style="width: 350px;">
+        </div>
     </section>
     
     <footer>
-        <div>
-            <div>
-                <p>Copyright © 2023 Salman Ali</p>
+        <div class="is-flex-desktop is-flex-end" style="background-color: #90dffa; justify-items: center;">
+            <div class=" m-2 is-size-5" style="width: 1500px;">
+                <p >Copyright © 2023 Salman Ali</p>
             </div>
             <div>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
+                <ul class="is-flex is-flex-end">
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
                 </ul>
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
