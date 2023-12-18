@@ -41,7 +41,7 @@ header a {
 }
 .menu-container {
     display: flex;
-    background-color: #a0e4fa;
+    background-color: linear-gradient(to right, #67b5ff, #a0e4fa);
     justify-content: space-between;
 }
 #closebtn {
@@ -483,7 +483,7 @@ ul img:hover {
     }
     .landing-page {
         z-index: 1;
-        background-color: #a0e4fa;
+        background-color: linear-gradient(to right, #67b5ff, #a0e4fa);
         display: none;
     }
     #menu-burger {
