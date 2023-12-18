@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Resume</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
 </head>
-<body>
+<body class="has-text-white" style="background-color: #a0e4fa;">
     <header>
         <div>
             <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
@@ -20,26 +22,31 @@
         </div>
     </header>
 
+    <div class="is-justify-content-center">
     <p>
-        <a href="./images/CV.pdf" download=""><span>Download <img src="./images/download.png" alt=""></span></a>
+        <a class="button is-rounded" href="./images/CV.pdf" download=""><span>Download <img src="./images/download.png" alt="" style="width: 10px;"></span></a>
     </p>
     <br>
-    <embed src="./images/CV.pdf">
-
+    <div class="is-justify-content-center">
+    <embed src="./images/CV.pdf" style="width: 330px; height: 475px;">
+    </div>
+    </div>
+    
     <footer>
-        <div>
-            <div>
-                <p>Copyright © 2023 Salman Ali</p>
+        <div class="is-flex-desktop is-flex-end" style="background-color: #90dffa; justify-items: center;">
+            <div class=" m-2 is-size-5" style="width: 1500px;">
+                <p >Copyright © 2023 Salman Ali</p>
             </div>
             <div>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
+                <ul class="is-flex is-flex-end">
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
+                    <li class="m-2" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);"><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
                 </ul>
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
