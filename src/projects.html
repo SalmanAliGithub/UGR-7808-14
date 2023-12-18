@@ -9,16 +9,27 @@
     
 </head>
 <body class="has-text-white" style="background-color: #a0e4fa;">
-    <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+    <header class="m-0 p-0" style="background-color: #90dffa;">
+        <div class="is-flex">
+            <a href="./index.html">
+                <figure style="width: 64px">
+                <img src="./images/logo.png" alt="logo">
+                </figure>
+            </a>
+            <a  class="navbar-burger has-text-white" id="burger" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="navbar-menu" id="landing-page">
+            <ul class="navbar-end" >
+                <li class="navbar-item "><a class=" has-text-white" href="./index.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/home.svg" alt="home-icon"> Home</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./about.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./projects.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./awards.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li class="navbar-item "><a class=" has-text-white" href="./resume.html"><img style="filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);" src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
+            </div>
         </div>
     </header>
     
@@ -59,20 +70,36 @@
     </section>
 
     <footer>
-        <div>
-        <div>
-        <p>Copyright © 2023 Salman Ali</p>
+        <div class="columns is-desktop is-vcentered is-centered " style="background-color: #90dffa;">
+            <div class="column is-size-5 is-flex is-justify-content-center m-2">
+                <p>Copyright © 2023 Salman Ali</p>
+            </div>
+            <div class="column is-flex is-justify-content-center is-justify-content-flex-end-desktop">
+                <ul class="is-flex is-size-4">
+                    <li class="m-2">
+                        <a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank">
+                            <img src="./images/linkedin.png" alt="LinkedIn" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);">
+                        </a>
+                    </li>
+                    <li class="m-2">
+                        <a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank">
+                            <img src="./images/facebook.png" alt="Facebook" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);">
+                        </a>
+                    </li>
+                    <li class="m-2">
+                        <a href="https://github.com/SalmanAliGithub" target="_blank">
+                            <img src="./images/github.png" alt="GitHub" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);">
+                        </a>
+                    </li>
+                    <li class="m-2">
+                        <a href="https://www.instagram.com/salmanalitech/" target="_blank">
+                            <img src="./images/instagram.png" alt="Instagram" style="width: 30px; filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-                <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-                <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
-            </ul>
-        </div>
-    </div>
     </footer>
-    
+    <script src="./js/script.js"></script>
 </body>
 </html>
