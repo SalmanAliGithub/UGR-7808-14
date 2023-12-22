@@ -7,17 +7,21 @@
     <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <header>
-        <div class="flex sm:justify-between">
-            <a class="flex w-20" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul class="hidden sm:flex items-center">
-                <li><a class="md:flex p-2 m-2" href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a class="md:flex p-2 m-2" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a class="md:flex p-2 m-2" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a class="md:flex p-2 m-2" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a class="md:flex p-2 m-2" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+<body class="bg-gradient-to-r from-leftBgColor to-rightBgColor ">
+    <header class="fixed w-full bg-gradient-to-r">
+        <div class="menu-container flex justify-between">
+            <a id="logo" class="flex w-20 z-10" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div id="myNav" class="hidden landing-page sm:flex items-center">
+            <a class="flex sm:hidden justify-end cursor-pointer text-white m-3 font-bold size-10" id="closebtn">&times;</a>
+            <ul class="sm:flex items-center">
+                <li class="flex justify-center"><a class="md:flex m-2 pl-2 ml-2 " href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2 justify-center" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
+            </div>
+            <span class=" cursor-pointer sm:hidden text-white m-3 font-bold size-10" id="menu-burger">&#9776</span>
         </div>
     </header>
 
@@ -75,5 +79,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
