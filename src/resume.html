@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Resume</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="output.css">
+
 </head>
-<body>
+
+<body class="bg-gradient-to-r from-leftBgColor to-rightBgColor text-white">
     <header>
         <div>
             <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
@@ -20,12 +23,13 @@
         </div>
     </header>
 
-    <p>
-        <a href="./images/CV.pdf" download=""><span>Download <img src="./images/download.png" alt=""></span></a>
-    </p>
+    <div class="flex justify-center">
+        <a class=" bg-rightBgColor rounded-lg p-1" href="./images/CV.pdf" download="Salman's CV"><span>Download</span> <img class="inline-block" width="8px" src="./images/download.png" alt=""></a>
+    </div>
     <br>
-    <embed src="./images/CV.pdf">
-
+    <div class="flex justify-center mb-10">
+    <embed width="330px" height="475px" src="./images/CV.pdf">
+    </div> 
     <footer>
         <div>
             <div>
@@ -41,5 +45,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
