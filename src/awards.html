@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="bg-gradient-to-r from-leftBgColor to-rightBgColor text-white"></body>
-    <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+<body class="bg-gradient-to-r from-leftBgColor to-rightBgColor text-white">
+    <header class="sticky top-0 w-full bg-gradient-to-r">
+        <div class="menu-container flex justify-between">
+            <a id="logo" class="flex w-20 " href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div id="myNav" class="hidden landing-page sm:flex items-center">
+            <a class="flex justify-end sm:hidden cursor-pointer text-white m-3 font-bold" id="closebtn">&times;</a>
+            <ul class="sm:flex items-center ">
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2 hover:bg-leftBgColor rounded-lg" href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2 hover:bg-leftBgColor rounded-lg" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2 hover:bg-leftBgColor rounded-lg" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2 hover:bg-leftBgColor rounded-lg" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li class="flex justify-center"><a class="md:flex pr-2 m-2 hover:bg-leftBgColor rounded-lg" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
+            </div>
+            <span class=" cursor-pointer sm:hidden text-white m-3 font-bold" id="menu-burger">&#9776</span>
         </div>
     </header>
 
@@ -101,5 +105,4 @@
             <img width="300px" src="images/NFC.jpg" alt="NFC-img">
         </div>
     </div>
-
-    <footer>
+</body>
