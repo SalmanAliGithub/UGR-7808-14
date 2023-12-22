@@ -7,6 +7,9 @@ module.exports = {
         rightBgColor:  '#a0e4fa',
         leftBgColor: '#67b5ff',
       },
+      fontFamily: {
+        dancing: ['Dancing Script', 'Arial', 'sans-serif'],
+      }
     },
   },
   plugins: [],
