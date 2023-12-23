@@ -11975,4 +11975,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.logo-width {
+  width: 64px;
 }/*# sourceMappingURL=style.css.map */

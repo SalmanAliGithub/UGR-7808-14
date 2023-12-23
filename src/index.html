@@ -9,16 +9,45 @@
     <script src="bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body class="text-white ">
+
+    <!-- Toggle menu -->
+
+    <nav class="navbar bg-body-tertiary fixed-top d-sm-none ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-100 " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
+                    <button type="button" class="btn-close pe-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a>
+                        </li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
     <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+        <div class="d-none d-sm-flex justify-content-between align-items-center ">
+            <a href="./index.html"><img class="logo-width" src="./images/logo.png" alt="logo"></a>
+            <ul class="d-flex list-unstyled">
+                <li><a class="text-decoration-none p-2 text-white" href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li><a class="text-decoration-none p-2 me-4 text-white" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
         </div>
     </header>
