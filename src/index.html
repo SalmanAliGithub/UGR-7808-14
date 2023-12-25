@@ -11,9 +11,9 @@
 <body class="text-white bg-secondary ">
 
     <!-- Toggle menu -->
-    <header>
+    <header class="sticky-top ">
     <nav class="navbar bg-body-tertiary d-sm-none p-0 sticky-top">
-        <div class="container-fluid bg-secondary fixed-top ">
+        <div class="container-fluid bg-secondary">
             <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
             <button class="navbar-toggler border-white  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </nav>
-        <div class="d-none d-sm-flex justify-content-between align-items-center bg-secondary fixed-top ">
+        <div class="d-none d-sm-flex justify-content-between align-items-center bg-secondary ">
             <a href="./index.html"><img class="logo-width" src="./images/logo.png" alt="logo"></a>
             <ul class="d-flex list-unstyled align-content-center ">
                 <li><a class="text-decoration-none p-2 text-white" href="./index.html"><img src="./images/home.svg" alt="home-icon"><span>Home</span></a></li>
@@ -49,23 +49,23 @@
         </div>
     </header>
 
-    <section>
-        <div class="pt-xl-5 mt-lg-5 ">
+    <div class="d-sm-flex">
+        <div class="container pt-xl-5 mt-lg-5 ">
             <h3 class="mt-5">Hey there !</h3>
-            <h2>I'm <strong>Salman Ali</strong></h2>
-            <h3>Awards winner programmer</h3>
-            <p>Founder and president of BariYEC, CEO OF Smart-Tech startup, Academics department president at RYC and Software engineering student at AAiT/AAU.</p>
+            <h2 class="fs-1 fst-italic fw-bolder">I'm <strong>Salman Ali</strong></h2>
+            <h3 class="fs-2 text-nowrap mb-4 ">Awards winner programmer</h3>
+            <p class="w-75 fs-2 justified">Founder and president of BariYEC, CEO OF Smart-Tech startup, Academics department president at RYC and Software engineering student at AAiT/AAU.</p>
         </div>
         <div>
-            <img src="./images/img-1.png" alt="sticker1-img">
+            <img class=" w-100 " src="./images/img-1.png" alt="sticker1-img">
         </div>
-    </section>
+    </div>
     <hr>
 
-    <section>
-        <h3>To say a little about myself</h3>
-        <div>
-            <p>I started programming in 2017, but I was in the Tech
+    <h3 class="d-flex justify-content-center fs-1 fw-bolder">To say a little about myself</h3>
+    <div class="d-sm-flex container ">
+        <div class="container sm:w-75 d-flex align-items-center">
+            <p class="fs-3 md:justified">I started programming in 2017, but I was in the Tech
                 field since my childhood. I remember myself working
                 with electronics and mechanical things since I was 5 years old.
                 I love technology and I am talented in the Mechatronics field, especially
@@ -74,31 +74,31 @@
             </p>
         </div>
         <div>
-            <img src="./images/img-2.png" alt="sticker2-img">
+            <img class="w-100" src="./images/img-2.png" alt="sticker2-img">
         </div>
-    </section>
-    <section>
-        <h3>Reach me out on</h3>
-        <p>Don't hesitate to contact</p>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-            <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-            <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
+    </div>
+    <section class="container mb-5 pb-5 ">
+        <h3 class="d-flex justify-content-center fs-1 fw-bolder">Reach me out on</h3>
+        <p class="d-flex justify-content-center ">Don't hesitate to contact</p>
+        <ul class="list-unstyled d-flex justify-content-center ">
+            <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img class="boxed" src="./images/linkedin.png" alt="ln-img"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img class="boxed" src="./images/facebook.png" alt="fb-img"></a></li>
+            <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img class="boxed" src="./images/github.png" alt="git-img"></a></li>
+            <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img class="boxed" src="./images/instagram.png" alt=""></a></li>
         </ul>
     </section>
 
     <footer>
-        <div>
-            <div>
-                <p>Copyright © 2023 Salman Ali</p>
+        <div class="d-sm-flex bg-primary justify-content-between align-content-end  mt-5 ">
+            <div class="d-flex align-content-center justify-content-center ">
+                <p class="d-flex align-content-center">Copyright © 2023 Salman Ali</p>
             </div>
             <div>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
+                <ul class="list-unstyled d-flex justify-content-center ">
+                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img class="boxed" src="./images/linkedin.png" alt="ln-img"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img class="boxed" src="./images/facebook.png" alt="fb-img"></a></li>
+                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img class="boxed" src="./images/github.png" alt="git-img"></a></li>
+                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img class="boxed" src="./images/instagram.png" alt=""></a></li>
                 </ul>
             </div>
         </div>

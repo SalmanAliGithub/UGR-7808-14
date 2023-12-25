@@ -17,3 +17,10 @@ $secondary: #67b5ff;
 .navbar-toggler-icon, .btn-close {
     filter: brightness(0) invert(1) sepia(1) hue-rotate(180deg);
   }
+.justified {
+    text-align: justify;
+}
+.boxed {
+    width: 45px;
+    padding: 5px;
+}
