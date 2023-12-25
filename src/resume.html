@@ -5,41 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-Resume</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+
+<body class="text-white bg-secondary ">
+
+    <!-- Toggle menu -->
+    <header class="sticky-top ">
+    <nav class="navbar bg-body-tertiary d-sm-none p-0 sticky-top">
+        <div class="container-fluid bg-secondary menu-container">
+            <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler border-white  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-100 bg-secondary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
+                    <button type="button" class="btn-close pe-5 pt-0 h-100" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a>
+                        </li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div class="d-none d-sm-flex justify-content-between align-items-center bg-secondary menu-container2">
+            <a href="./index.html"><img class="logo-width" src="./images/logo.png" alt="logo"></a>
+            <ul class="d-flex list-unstyled align-content-center ">
+                <li><a class="text-decoration-none p-2 text-white" href="./index.html"><img src="./images/home.svg" alt="home-icon"><span>Home</span></a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li><a class="text-decoration-none p-2 me-4 text-white" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
         </div>
     </header>
 
-    <p>
-        <a href="./images/CV.pdf" download=""><span>Download <img src="./images/download.png" alt=""></span></a>
-    </p>
+    <div class="d-flex justify-content-center mt-20 ">
+        <a class=" bg-primary text-white text-decoration-none rounded-1 p-1" href="./images/CV.pdf" download="Salman's CV"><span>Download</span> <img class="inline-block" width="8px" src="./images/download.png" alt=""></a>
+    </div>
     <br>
-    <embed src="./images/CV.pdf">
+    <div class="d-flex justify-content-center mb-10">
+    <embed width="330px" height="475px" src="./images/CV.pdf">
+    </div> 
 
-    <footer>
-        <div>
-            <div>
-                <p>Copyright © 2023 Salman Ali</p>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
-                </ul>
-            </div>
+    <footer class="d-sm-flex bg-primary justify-content-between align-content-end  mt-5">
+        <div class="d-flex align-content-center justify-content-center ">
+            <p class="d-flex align-content-center">Copyright © 2023 Salman Ali</p>
         </div>
-    </footer>
+        <div>
+            <ul class="list-unstyled d-flex justify-content-center ">
+                <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img class="boxed" src="./images/linkedin.png" alt="ln-img"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img class="boxed" src="./images/facebook.png" alt="fb-img"></a></li>
+                <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img class="boxed" src="./images/github.png" alt="git-img"></a></li>
+                <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img class="boxed" src="./images/instagram.png" alt=""></a></li>
+            </ul>
+        </div>
+</footer>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
