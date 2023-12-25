@@ -5,32 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salman Ali-About</title>
     <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <div>
-            <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a></li>
-                <li><a href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
-                <li><a href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
-                <li><a href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
-                <li><a href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+
+<body class="text-white bg-secondary ">
+
+    <!-- Toggle menu -->
+    <header class="sticky-top ">
+    <nav class="navbar bg-body-tertiary d-sm-none p-0 sticky-top">
+        <div class="container-fluid bg-secondary">
+            <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler border-white  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end w-100 bg-secondary" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="./index.html"><img class="logo-width " src="./images/logo.png" alt="logo"></a>
+                    <button type="button" class="btn-close pe-5 pt-0 h-100" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./index.html"><img src="./images/home.svg" alt="home-icon"> Home</a>
+                        </li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                        <li><a class="nav-link active d-flex  justify-content-center " aria-current="page" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div class="d-none d-sm-flex justify-content-between align-items-center bg-secondary ">
+            <a href="./index.html"><img class="logo-width" src="./images/logo.png" alt="logo"></a>
+            <ul class="d-flex list-unstyled align-content-center ">
+                <li><a class="text-decoration-none p-2 text-white" href="./index.html"><img src="./images/home.svg" alt="home-icon"><span>Home</span></a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./about.html"><img src="./images/about.svg" alt="about-icon"> About</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./projects.html"><img src="./images/projects.svg" alt="projects-icon"> Projects</a></li>
+                <li><a class="text-decoration-none p-2 text-white" href="./awards.html"><img src="./images/awards.svg" alt="awards-icon"> Awards</a></li>
+                <li><a class="text-decoration-none p-2 me-4 text-white" href="./resume.html"><img src="./images/resume.svg" alt="resume-icon"> Resume</a></li>
             </ul>
         </div>
     </header>
 
-    <section>
-        <div>
-            <h3>Get to know me!</h3>
-            <p>Hello, I am Salman Ali born in Harar, Ethiopia 
+    <h3 class="pt-5 mt-5 d-flex justify-content-center fs-1 fw-bolder">Get to know me!</h3>
+    <div class="container d-sm-flex">
+        <div class="container sm:w-75 ">
+            <p class="fs-3 justified">Hello, I am Salman Ali born in Harar, Ethiopia 
                 and raised in Jijiga, Ethiopia. I am currently
                 a software engineering student at the prestigious
                 university in Ethiopia and Africa, Addis Ababa 
                 University in its technology institute (AAU/AAiT).
             </p>
-            <p>What do I enjoy other than programming?</p>
-            <ul>
+            <p class="fs-3 ">What do I enjoy other than programming?</p>
+            <ul class="fs-3 ">
                 <li>Reading books</li>
                 <li>Maintaining electronics</li>
                 <li>Event organizing</li>
@@ -38,43 +67,43 @@
             </ul>
         </div>
         <div>
-            <img src="./images/img-3.png" alt="sticker3-img">
+            <img class="w-100 " src="./images/img-3.png" alt="sticker3-img">
         </div>
-    </section>
-    <section>
-        <h3>My tech skills</h3>
-        <img src="./images/arduino.png" alt="arduino-icon">
-        <img src="./images/css-3.png" alt="css-icon">
-        <img src="./images/html.png" alt="html-icon">
-        <img src="./images/java-script.png" alt="javascript-icon">
-        <img src="./images/java.png" alt="java-icon">
-        <img src="./images/python.png" alt="python-icon">
-        <img src="./images/c.png" alt="c-icon">
-    </section>
+    </div>
 
-    <section>
-        <h3>Tools I use</h3>
-        <img src="./images/Proteus.png" alt="proteus-icon">
-        <img src="./images/arduino.png" alt="ardIDE-icon">
-        <img src="./images/multimeter.png" alt="multimeter-img">
-        <img src="./images/maintenance.png" alt="tool-img">
-        <img src="./images/vs.svg" alt="vscode-icon">
-    </section>
+    <h3 class="pt-5 mt-5 d-flex justify-content-center fs-1 fw-bolder">My tech skills</h3>
+    <div class="d-flex flex-wrap justify-content-center ">
+        <img class="m-5 " width="300px" src="./images/arduino.png" alt="arduino-icon">
+        <img class="m-5" width="300px" src="./images/css-3.png" alt="css-icon">
+        <img class="m-5" width="300px" src="./images/html.png" alt="html-icon">
+        <img class="m-5" width="300px" src="./images/java-script.png" alt="javascript-icon">
+        <img class="m-5" width="300px" src="./images/java.png" alt="java-icon">
+        <img class="m-5" width="300px" src="./images/python.png" alt="python-icon">
+        <img class="m-5" width="300px" src="./images/c.png" alt="c-icon">
+    </div>
+
+    <h3 class="pt-5 mt-5 d-flex justify-content-center fs-1 fw-bolder">Tools I use</h3>
+    <div class="d-flex flex-wrap justify-content-center ">
+        <img class="m-5 " width="300px" src="./images/Proteus.png" alt="proteus-icon">
+        <img class="m-5 " width="300px" src="./images/arduino.png" alt="ardIDE-icon">
+        <img class="m-5 " width="300px" src="./images/multimeter.png" alt="multimeter-img">
+        <img class="m-5 " width="300px"src="./images/maintenance.png" alt="tool-img">
+        <img class="m-5 " width="300px" src="./images/vs.svg" alt="vscode-icon">
+    </div>
     
-    <footer>
-        <div>
-            <div>
-                <p>Copyright © 2023 Salman Ali</p>
+    <footer class="d-sm-flex bg-primary justify-content-between align-content-end  mt-5">
+            <div class="d-flex align-content-center justify-content-center ">
+                <p class="d-flex align-content-center">Copyright © 2023 Salman Ali</p>
             </div>
             <div>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img src="./images/linkedin.png" alt="ln-img"></a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img src="./images/facebook.png" alt="fb-img"></a></li>
-                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img src="./images/github.png" alt="git-img"></a></li>
-                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img src="./images/instagram.png" alt=""></a></li>
+                <ul class="list-unstyled d-flex justify-content-center ">
+                    <li><a href="https://www.linkedin.com/in/salman-ali-248a5425b/" target="_blank"><img class="boxed" src="./images/linkedin.png" alt="ln-img"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100054760172691" target="_blank"><img class="boxed" src="./images/facebook.png" alt="fb-img"></a></li>
+                    <li><a href="https://github.com/SalmanAliGithub" target="_blank"><img class="boxed" src="./images/github.png" alt="git-img"></a></li>
+                    <li><a href="https://www.instagram.com/salmanalitech/" target="_blank"><img class="boxed" src="./images/instagram.png" alt=""></a></li>
                 </ul>
             </div>
-        </div>
     </footer>
+    <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
